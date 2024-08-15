@@ -56,8 +56,5 @@ def run_camera():
     return redirect(url_for('index'))
 
 if __name__ == "__main__":
-    cert_file = "/home/ubuntu/certs/8907a39044534c57.crt"
-    key_file = "/home/ubuntu/certs/8907a39044534c57.pem"
-    ca_bundle = "/home/ubuntu/certs/gd_bundle-g2-g1.crt"
     app.run(host="0.0.0.0", port=5900)
 
